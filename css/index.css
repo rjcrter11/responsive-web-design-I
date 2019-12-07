@@ -1,3 +1,269 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	
+}
+
+
+.container {
+	width: 1050px; 
+	margin: 0 auto; 
+  padding: 2vh 4%; 
+} 
+
+/* Navigation Content */
+.nav-wrapper {
+	display: flex;  
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0; 
+	z-index: 9999;  
+	background-color: rgba(84, 84, 230, 0.808);
+	width: 100%;
+	height: 5vh;
+	border: 1px solid black; 
+}
+.nav-wrapper a { 
+	margin: .85vh 1vw 0 1.5vw; 
+	width: 10vw;
+	height: 3vh;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-align: left;
+	color: black;
+	font-weight: bold; 
+}
+
+.nav-wrapper a:hover {
+	color: rgba(120, 255, 86, 0.815); 
+}
+.nav-wrapper:hover {
+	border: 1.5px solid rgba(120, 255, 86, 0.815); 
+}
+
+.logo { 
+	margin-left: 1%; 
+	width: 10;
+	height: 36px; 
+}
+/* End Navigation */
+
+/* Header Content */
+
+.top {
+	 display: flex;    
+	 align-items: center;
+	 justify-content: space-around;
+	
+	 border-bottom: 2px solid black; 
+	 height: 65vh; 
+	 width: 100%;	   
+}
+
+
+/* Left Image */
+.header-wrapper {
+	height: 36vh;
+	width: 45%;
+
+}
+.header-wrapper h1 {
+	font-size: 4.75rem;
+	letter-spacing: 0.75rem;
+	text-align: center;
+	margin-left: 5%;  
+	margin-right: 5%; 
+	margin-top: 5vh; 
+}
+.top div {
+	width: 40%; 
+}
+
+
+/* Button Styles */
+.button {
+	width: 38%;
+	height: 3.5vh;
+	margin-left: 31%; 
+	border: 1px solid black;  
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.15em;
+}
+.button:hover {
+	background: gray; 
+	color: white; 
+}
+
+/* Header Image */
+.index-image {
+	  
+	width: 100%; 
+}
+
+/* Main Content */
+
+/* Top paragraph box styles */
+
+ .top-paragraphs {   
+	 display: flex; 
+	 justify-content: space-between;
+	 align-items: center; 
+	 width: 100%;   
+	 height: 20vh; 
+	 margin-bottom: 3vh; 
+	 margin-top: 5vh; 
+}
+.top-paragraphs div {
+	width: 48%; 
+}
+
+.middle-image {
+	display: flex; 
+	align-items: stretch;
+	height: 27vh; 
+width: 100%; 
+margin-bottom: 4vh; 
+}
+.middle-img {
+	width: 100%; 
+}
+
+
+/* Top Paragraph Font Styles */
+
+.top-paragraphs h2 {
+	font-size: 1.5rem; 
+}
+.top-paragraphs p {
+	font-size: 1.1rem; 
+	line-height: 1.75rem;
+}
+
+
+
+/* Bottom Paragraph Box Styles */
+
+.bottom-paragraphs {
+	display: flex; 
+	justify-content: space-between;
+	border-bottom: 2px solid black; 
+	width: 100%; 
+	height: 29vh; 
+	}
+.bottom-paragraphs div {
+	width: 32%;
+	height: 22vh;    
+}
+.services {
+	margin-right: 1vw; 
+}
+ .product {
+	margin-right: 1vw; 
+} 
+
+/* Bottom Paragraph Font Styles */
+
+.bottom-paragraphs p {
+	padding: 0 0.25%; 
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+}
+
+.bottom-paragraphs h2 {
+	font-size: 1.5rem;
+	margin-bottom: 2vh; 
+}
+
+/* Footer */
+  
+.index-footer {
+	display: flex; 
+	align-items: center; 
+	height: 37vh; 
+	width: 100%;	
+}
+.footer-content h2 {
+	font-size: 1.5rem;
+}
+.footer-content p {
+	line-height: 1.5rem;
+	margin-bottom: 3vh; 
+	margin-top: 3.5vh; 
+	font-size: 1.2rem; 
+}
+.copyright {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-right: 5%;
+}
 
 
