@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	border: 1.5px solid rgba(120, 255, 86, 0.815); 
 }
 
-.logo { 
+.nav-logo { 
 	margin-left: 1%; 
 	width: 10;
 	height: 36px; 
@@ -274,10 +274,17 @@ margin-bottom: 4vh;
   position: static;
   background-color: white;
   border: none;
-    
+  height: 15vh; 
+  justify-content: space-between; 
 }
 .nav-wrapper a {
-  color: gray; 
+  color: gray;  
+}
+.nav-wrapper a:hover {
+  color: black;
+}
+.nav-wrapper:hover {
+  border: none; 
 }
 .nav-wrapper:nth-of-type(7) {
   order: 1;
@@ -300,18 +307,21 @@ margin-bottom: 4vh;
 .nav-wrapper a:nth-of-type(6) {
   order: 7;
 }
-.logo {
+.nav-logo {
   width: 100%; 
+  justify-self: center; 
+  text-align: center;
 }
 
+
 .top {
-  height: 50vh; 
+  height: 47vh; 
 }
 
   .header-wrapper {
     width: 100%; 
     align-items: flex-start;
-    margin-bottom: 10vh; 
+    margin-bottom: 15vh; 
   }
   .button {
     width: 30%; 
