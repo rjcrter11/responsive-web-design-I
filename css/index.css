@@ -269,6 +269,8 @@ margin-bottom: 4vh;
 /* ------------------------MEDIA QUERY 800PX-------------------------- */
 
 @media (max-width: 800px) {
+
+  /* Navigation */
 .nav-wrapper {
   flex-flow: row wrap;
   position: static;
@@ -307,13 +309,14 @@ margin-bottom: 4vh;
 .nav-wrapper a:nth-of-type(6) {
   order: 7;
 }
+/* Nav Logo */
 .nav-logo {
   width: 100%; 
   justify-self: center; 
   text-align: center;
 }
 
-
+/* Header Box */
 .top {
   height: 47vh; 
 }
@@ -330,6 +333,8 @@ margin-bottom: 4vh;
   .index-image {
     display: none; 
   }
+
+/* Top Paragraphs */
 .top-paragraphs {
   height: 29vh; 
   margin-bottom: 2vh; 
@@ -341,8 +346,19 @@ margin-bottom: 4vh;
 .bottom-paragraphs {
   height: 35vh; 
 }
+
+/* Bottom Paragraphs */
 .bottom-paragraphs div {
   padding: 0 1%; 
 }
 
+/* Footer */
+.index-footer {
+  height: 34vh; 
+  margin-top: 2vh; 
+  margin-bottom: 1vh;
+}
+.footer-content {
+  line-height: 0.75rem; 
+}
 }
