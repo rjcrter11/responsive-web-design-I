@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-
+/* --------------------------DESKTOP INDEX---------------------------- */
 .container {
 	width: 1050px; 
 	margin: 0 auto; 
@@ -266,4 +266,48 @@ margin-bottom: 4vh;
 	margin-right: 5%;
 }
 
+/* ------------------------MEDIA QUERY 800PX-------------------------- */
 
+@media (max-width: 800px) {
+.nav-wrapper {
+  position: static;
+  background-color: white;
+  border: none;
+    
+}
+.nav-wrapper a {
+  color: gray; 
+  
+}
+.top {
+  height: 50vh; 
+}
+
+  .header-wrapper {
+    width: 100%; 
+    align-items: flex-start;
+    margin-bottom: 10vh; 
+  }
+  .button {
+    width: 30%; 
+    margin-left: 34%; 
+  }
+  .index-image {
+    display: none; 
+  }
+.top-paragraphs {
+  height: 29vh; 
+  margin-bottom: 2vh; 
+  margin-top: 4vh; 
+}
+.top-paragraphs div {
+  height: 29vh; 
+}
+.bottom-paragraphs {
+  height: 35vh; 
+}
+.bottom-paragraphs div {
+  padding: 0 1%; 
+}
+
+}
