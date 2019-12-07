@@ -270,6 +270,7 @@ margin-bottom: 4vh;
 
 @media (max-width: 800px) {
 .nav-wrapper {
+  flex-flow: row wrap;
   position: static;
   background-color: white;
   border: none;
@@ -277,8 +278,32 @@ margin-bottom: 4vh;
 }
 .nav-wrapper a {
   color: gray; 
-  
 }
+.nav-wrapper:nth-of-type(7) {
+  order: 1;
+}
+.nav-wrapper a:nth-of-type(1) {
+  order: 2;
+}
+.nav-wrapper a:nth-of-type(2) {
+  order: 3;
+}
+.nav-wrapper a:nth-of-type(3) {
+  order: 4;
+}
+.nav-wrapper a:nth-of-type(4) {
+  order: 5;
+}
+.nav-wrapper a:nth-of-type(5) {
+  order: 6;
+}
+.nav-wrapper a:nth-of-type(6) {
+  order: 7;
+}
+.logo {
+  width: 100%; 
+}
+
 .top {
   height: 50vh; 
 }
