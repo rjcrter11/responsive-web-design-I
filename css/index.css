@@ -146,9 +146,9 @@ h1, h2, h3, h4, h5 {
 
 /* Button Styles */
 .button {
-	width: 38%;
-	height: 3.5vh;
-	margin-left: 31%; 
+	width: 40%;
+	height: 4.5vh;
+	margin-left: 28%; 
 	border: 1px solid black;  
 	cursor: pointer;
 	text-align: center;
@@ -378,6 +378,12 @@ margin-bottom: 4vh;
   .nav-logo {
     border-bottom: 1px solid gray;
     height: 7vh; 
+  }
+
+/* Header Wrapper Button */
+  .button {
+    width: 40%; 
+    margin-left: 28%; 
   }
 
 /* Top Paragraphs */
