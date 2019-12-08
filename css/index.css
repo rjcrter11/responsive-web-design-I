@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-/* --------------------------DESKTOP INDEX---------------------------- */
+/* -----------------------------------------DESKTOP INDEX---------------------------------------- */
 .container {
 	width: 1050px; 
 	margin: 0 auto; 
@@ -101,21 +101,16 @@ h1, h2, h3, h4, h5 {
 	 color: gray; 
 	font-weight: bold; 
 }
-
 .nav-wrapper a:hover {
 	 color: black;  
 }
-
-
 .nav-logo { 
 	margin-left: 1%; 
 	width: 10;
 	height: 36px; 
 }
-/* End Navigation */
 
-/* Header Content */
-
+/* ----------------Header Content----------------- */
 .top {
 	 display: flex;    
 	 align-items: center;
@@ -125,8 +120,7 @@ h1, h2, h3, h4, h5 {
 	 width: 100%;	   
 }
 
-
-/* Left Image */
+/* -------------------Left Image-------------------*/
 .header-wrapper {
 	height: 40vh;
 	width: 45%;
@@ -143,8 +137,7 @@ h1, h2, h3, h4, h5 {
 	width: 40%; 
 }
 
-
-/* Button Styles */
+/* -----------------Button Styles---------------- */
 .button {
 	width: 40%;
 	height: 4.5vh;
@@ -159,43 +152,26 @@ h1, h2, h3, h4, h5 {
 	color: white; 
 }
 
-/* Header Image */
-.index-image {
-	  
+/* ----------------Header Image------------------ */
+.index-image { 
 	width: 100%; 
 }
 
-/* Main Content */
-
-/* Top paragraph box styles */
-
- .top-paragraphs {   
-	 display: flex; 
-	 justify-content: space-between;
-	 align-items: center; 
-	 width: 100%;   
-	 height: 20vh; 
-	 margin-bottom: 3vh; 
-	 margin-top: 5vh; 
+/* -----------Top Paragraph Box Styles---------- */
+.top-paragraphs {   
+	display: flex; 
+	justify-content: space-between;
+	align-items: center; 
+	width: 100%;   
+	height: 20vh; 
+	margin-bottom: 3vh; 
+	margin-top: 5vh; 
 }
 .top-paragraphs div {
 	width: 48%; 
 }
 
-.middle-image {
-	display: flex; 
-	align-items: stretch;
-	height: 27vh; 
-width: 100%; 
-margin-bottom: 4vh; 
-}
-.middle-img {
-	width: 100%; 
-}
-
-
-/* Top Paragraph Font Styles */
-
+/* ----------Top Paragraph Font Styles-----------*/
 .top-paragraphs h2 {
 	font-size: 1.5rem; 
 }
@@ -204,9 +180,19 @@ margin-bottom: 4vh;
 	line-height: 1.75rem;
 }
 
+/* -----------------Middle Image-----------------*/
+.middle-image {
+	display: flex; 
+	align-items: stretch;
+	height: 27vh; 
+  width: 100%; 
+  margin-bottom: 4vh; 
+}
+.middle-img {
+	width: 100%; 
+}
 
-
-/* Bottom Paragraph Box Styles */
+/* --------Bottom Paragraph Box Styles--------- */
 
 .bottom-paragraphs {
 	display: flex; 
@@ -214,7 +200,7 @@ margin-bottom: 4vh;
 	border-bottom: 2px solid black; 
 	width: 100%; 
 	height: 29vh; 
-	}
+}
 .bottom-paragraphs div {
 	width: 32%;
 	height: 22vh;    
@@ -226,7 +212,7 @@ margin-bottom: 4vh;
 	margin-right: 1vw; 
 } 
 
-/* Bottom Paragraph Font Styles */
+/* -------Bottom Paragraph Font Styles--------- */
 
 .bottom-paragraphs p {
 	padding: 0 0.25%; 
@@ -239,7 +225,7 @@ margin-bottom: 4vh;
 	margin-bottom: 2vh; 
 }
 
-/* Footer */
+/* ------------------Footer-------------------- */
   
 .index-footer {
 	display: flex; 
@@ -262,11 +248,11 @@ margin-bottom: 4vh;
 	margin-right: 5%;
 }
 
-/* ------------------------MEDIA QUERY 800PX-------------------------- */
-/* -----------------------------INDEX--------------------------------- */
+/* -------------------------------------MEDIA QUERY 800PX--------------------------------------- */
+/* -------------------------------INDEX--------------------------------- */
 @media (max-width: 800px) {
 
-  /* Navigation */
+/* ------------------Navigation---------------- */
 .nav-wrapper {
   flex-flow: row wrap;
   background-color: white;
@@ -304,18 +290,17 @@ margin-bottom: 4vh;
 .nav-wrapper a:nth-of-type(6) {
   order: 7;
 }
-/* Nav Logo */
+/* ----------------Nav Logo------------------ */
 .nav-logo {
   width: 100%; 
   justify-self: center; 
   text-align: center;
 }
 
-/* Header Box */
+/* ----------------Header Box---------------- */
 .top {
   height: 47vh; 
-}
-
+  }
   .header-wrapper {
     width: 100%; 
     align-items: flex-start;
@@ -329,7 +314,7 @@ margin-bottom: 4vh;
     display: none; 
   }
 
-/* Top Paragraphs */
+/* --------------Top Paragraphs--------------*/
 .top-paragraphs {
   height: 29vh; 
   margin-bottom: 2vh; 
@@ -342,12 +327,12 @@ margin-bottom: 4vh;
   height: 35vh; 
 }
 
-/* Bottom Paragraphs */
+/* ------------Bottom Paragraphs----------- */
 .bottom-paragraphs div {
   padding: 0 1%; 
 }
 
-/* Footer */
+/* -----------------Footer----------------- */
 .index-footer {
   height: 34vh; 
   margin-top: 2vh; 
@@ -358,18 +343,17 @@ margin-bottom: 4vh;
 }
 }
 
-/* ---------------------------------MEDIA QUERY 500PX--------------------------------- */
+/* ---------------------------------------MEDIA QUERY 500PX------------------------------------- */
 /* ------------------------------INDEX---------------------------------- */
 @media (max-width: 500px) {
 .container {
   padding: 0 .5%; 
-}
-/* Navigation */
+  }
+/* ---------------------Navigation---------------------*/
   .nav-wrapper {
     height: 68vh; 
     align-content: space-around; 
-}
-
+  }
   .nav-wrapper a {
     width: 100%;
     font-size: 1.3rem;
@@ -383,19 +367,17 @@ margin-bottom: 4vh;
     height: 7vh; 
   }
 
-/* Header Wrapper Button */
+/* ---------------Header Wrapper Button-------------*/
   .header-wrapper {
     margin-top: 4vh; 
     padding: 2vh 0; 
   }
-
-
   .button {
     width: 40%; 
     margin-left: 28%; 
   }
 
-/* Top Paragraphs */
+/* ------------------Top Paragraphs---------------- */
   .top-paragraphs {
     display: flex; 
     flex-flow: row wrap;
@@ -406,7 +388,6 @@ margin-bottom: 4vh;
   .top-paragraphs div {
     height: 21vh; 
     width: 100%; 
-     
   }
   .top-paragraphs {
     line-height: 1rem; 
@@ -414,7 +395,7 @@ margin-bottom: 4vh;
   .features {
     margin-bottom: 2vh;
   }
-/* Bottom Paragraphs */
+/* ----------------Bottom Paragraphs--------------- */
   .bottom-paragraphs {
     display: flex; 
     flex-flow: row wrap;
@@ -424,14 +405,15 @@ margin-bottom: 4vh;
     width: 100%; 
   }
 
-/* Footer */
+/* ---------------------Footer--------------------- */
   .footer-content {
     line-height: 1rem; 
   }
 }
 
-/* -----------------------------MOBILE First Services--------------------------------*/ 
-/* ----------------Navigation--------------- */
+/* -------------------------------MOBILE First Services 500px----------------------------------*/ 
+
+/* --------------------Navigation--------------------- */
 .services-container {
   width: 1050px; 
   margin: 0 auto; 
@@ -444,8 +426,7 @@ margin-bottom: 4vh;
   justify-content: center;
   align-content: center;
   width: 100%; 
-  height: 53.75vh; 
-  
+  height: 62vh; 
 }
 
 .services-nav-wrapper a {
@@ -474,7 +455,7 @@ margin-bottom: 4vh;
   margin-bottom: 3vh;
 }
 
-/* -------------------Services Header--------------------- */
+/* --------------------Services Header--------------------- */
 
 .services-header-wrapper {
   display: flex;
@@ -536,11 +517,13 @@ margin-bottom: 4vh;
   border-radius: 5px; 
 }
 
-/* ----------------------Service Footer--------------------- */
+/* -------------------------Service Footer------------------------ */
 .services-footer {
   display: flex; 
   flex-flow: row wrap;
-  height: 74vh; 
+  height: 77vh; 
+  border-top: 2px solid black;
+  padding-top: 2vh; 
 }
 .services-footer div {
   width: 100%; 
@@ -548,23 +531,24 @@ margin-bottom: 4vh;
 .services-info-box {
   display: flex; 
   flex-direction: column;
-  justify-content: space-around;
-  height: 38vh; 
+  justify-content: space-between;
+  height: 37.75vh; 
   width: 100%; 
 }
 
 /* --------Service Footer Font Styles-------- */
 .services-info-box h2 {
   font-size: 1.25em;
+  margin-top: 2vh; 
 }
 .services-info-box p {
   line-height: 1.25em; 
-   
+   margin-bottom: 2vh; 
 }
 .services-info-box ul li {
   list-style: square;
   line-height: 1.5em;
-  margin: 0 4%; 
+  margin: 1vh 4%; 
 }
 
 /* -----------Service Footer Image---------- */
@@ -572,9 +556,10 @@ margin-bottom: 4vh;
   align-self: stretch;
   width: 100%; 
   height: 39vh; 
+  border: 1px solid black; 
 }
 
-/* -------Service Copyright-------- */
+/* ---------Service Copyright---------- */
 .services-copyright {
   color: white; 
 }
@@ -584,28 +569,32 @@ margin-bottom: 4vh;
  @media  (min-width: 800px) {
 
    .services-container {
-     padding: 2vh 1.5%; 
+     padding: 0 1.5%; 
    }
 
-  /* ---------------------Navigation--------------------*/
+  /* ---------------------Navigation---------------------*/
    .services-nav-wrapper {
-     flex-flow: row nowrap; 
-     height: 8vh; 
+     flex-flow: row wrap; 
+     height: 18vh; 
      width: 100%; 
    }
    .services-nav-wrapper a {
-     width: 17%; 
+     width: 15%; 
      border-bottom: none; 
      height: 5vh; 
      justify-content: space-between;
+     align-items: center;
    }
-   .logo-nav {
+    .logo-nav {
      height: 5vh; 
      border-bottom: none; 
-     margin-bottom: 0; 
+     margin-bottom: 2vh; 
+   } 
+   .logo-nav a {
+     width: 100%; 
    }
 
-   /* ----------------Services Header----------------- */
+   /* ------------------Services Header------------------- */
 
    .services-header-wrapper {
      height: 47vh; 
@@ -623,11 +612,10 @@ margin-bottom: 4vh;
      line-height: 1.5em;
    }
 
-   /* -------------------Grid Area-------------------- */
+   /* ----------------------Grid Area--------------------- */
    .boxes {
-     height: 97vh; 
+     height: 105vh; 
      justify-content: space-between;
-
    }
    .services-grid {
      width: 49%; 
@@ -649,7 +637,8 @@ margin-bottom: 4vh;
    /* ------------------Services Footer----------------- */
    .services-footer {
      flex-flow: row nowrap; 
-     height: 40vh; 
+     height: 44vh; 
+     
    }
    .services-info-box {
      width: 45%; 
@@ -670,3 +659,90 @@ margin-bottom: 4vh;
   }
 
  }
+
+ /* -----------------------Services Media Query 1000px min------------------------- */
+
+ 
+
+ @media (min-width: 1000px) {
+  .container {
+   padding: 0 2%; 
+ }
+
+/* -----------------------Navigation------------------------ */ 
+  .services-nav-wrapper {
+   display: flex; 
+   flex-flow: row nowrap; 
+   justify-content: space-between;
+   align-items: flex-end;
+   width: 100%; 
+   height: 6vh; 
+   margin-bottom: 3vh; 
+ }
+ .services-nav-wrapper a {
+   width: 9%; 
+   font-size: 1.15em; 
+   margin-top: 2vh; 
+ }
+
+ /* -----------Services Logo------------- */
+ .logo-nav {
+   display: flex; 
+   align-items: center;
+   width: 15%; 
+   
+ }
+ .logo-nav a {
+   width: 100%; 
+     
+ }
+ 
+ 
+.services-nav-wrapper a:nth-of-type(2) {
+  order: 1;
+}
+.services-nav-wrapper a:nth-of-type(3) {
+  order: 2;
+}
+.services-nav-wrapper a:nth-of-type(4) {
+  order: 3;
+}
+.services-nav-wrapper a:nth-of-type(5) {
+  order: 4;
+}
+.services-nav-wrapper a:nth-of-type(6) {
+  order: 5;
+}
+.services-nav-wrapper a:nth-of-type(7) {
+  order: 6;
+}
+.services-nav-wrapper .logo-nav:nth-of-type(1) {
+  order: 7; 
+}
+
+/* ------------- Services Header Wrapper -------------*/
+  .services-header-wrapper {
+    height: 56vh; 
+  }
+  .services-header-img img {
+    width: 100%; 
+  }
+  .services-header-img {
+    margin-left: 0; 
+  }
+  .service-box {
+    padding: 0 2%; 
+  }
+
+
+/* -------------------Services Footer------------------ */
+  .services-info-img {
+    margin-top: 1.75vh; 
+  }
+
+  /* ---------------Services Copyright---------------- */
+  .services-copyright {
+    margin-right: 3%; 
+  }
+ }
+ 
