@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5 {
 
 /* Left Image */
 .header-wrapper {
-	height: 36vh;
+	height: 40vh;
 	width: 45%;
 }
 .header-wrapper h1 {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	margin-left: 5%;  
 	margin-right: 5%; 
-	margin-top: 5vh; 
+	margin-top: 2.5vh; 
 }
 .top div {
 	width: 40%; 
@@ -263,7 +263,7 @@ margin-bottom: 4vh;
 }
 
 /* ------------------------MEDIA QUERY 800PX-------------------------- */
-
+/* -----------------------------INDEX--------------------------------- */
 @media (max-width: 800px) {
 
   /* Navigation */
@@ -359,13 +359,13 @@ margin-bottom: 4vh;
 }
 
 /* -------------------------MEDIA QUERY 500PX--------------------------- */
-
+/* ------------------------------INDEX---------------------------------- */
 @media (max-width: 500px) {
 
 /* Navigation */
   .nav-wrapper {
     height: 78vh; 
-    align-content: space-around;
+    align-content: space-around; 
 }
 
   .nav-wrapper a {
@@ -381,6 +381,12 @@ margin-bottom: 4vh;
   }
 
 /* Header Wrapper Button */
+  .header-wrapper {
+    margin-top: 4vh; 
+    padding: 2vh 0; 
+  }
+
+
   .button {
     width: 40%; 
     margin-left: 28%; 
@@ -419,5 +425,62 @@ margin-bottom: 4vh;
   .footer-content {
     line-height: 1rem; 
   }
-
 }
+
+/* -----------------------MOBILE FIRST SERVICE-------------------------- */
+
+.services-container {
+  width: 1050px; 
+  margin: 0 auto; 
+  padding: 2vh 1%; 
+}
+
+.services-nav-wrapper {
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%; 
+  height: 53.75vh; 
+  
+}
+
+.services-nav-wrapper a {
+  width: 100%; 
+  font-size: 1.3rem; 
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1.5vh;
+  height: 8vh; 
+  padding-top: 2vh; 
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: center;
+  height: 8vh; 
+  width: 100%; 
+  text-align: center;
+  border-bottom: 1px solid gray; 
+  margin-bottom: 3vh;
+}
+
+.services-header-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: 38vh; 
+  margin-bottom: 4vh;
+}
+
+.services-header-wrapper div {
+  width: 100%; 
+}
+
+.service-box {
+  border-bottom: 2px solid black;
+  padding: 0 2%; 
+  line-height: 1.15em;
+}
+ 
