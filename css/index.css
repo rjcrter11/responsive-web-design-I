@@ -358,7 +358,7 @@ margin-bottom: 4vh;
 }
 }
 
-/* -------------------------MEDIA QUERY 500PX--------------------------- */
+/* ---------------------------------MEDIA QUERY 500PX--------------------------------- */
 /* ------------------------------INDEX---------------------------------- */
 @media (max-width: 500px) {
 .container {
@@ -430,7 +430,7 @@ margin-bottom: 4vh;
   }
 }
 
-/* -------------------MOBILE First Service--------------*/ 
+/* -----------------------------MOBILE First Services--------------------------------*/ 
 /* ----------------Navigation--------------- */
 .services-container {
   width: 1050px; 
@@ -474,7 +474,7 @@ margin-bottom: 4vh;
   margin-bottom: 3vh;
 }
 
-/* --------------Services Header-------------- */
+/* -------------------Services Header--------------------- */
 
 .services-header-wrapper {
   display: flex;
@@ -491,7 +491,7 @@ margin-bottom: 4vh;
   border-bottom: 2px solid black;
   padding: 0 2%; 
 }
-/* ---Services Header Font Styles--- */
+/* -------Services Header Font Styles------- */
 .service-box h1 {
   font-size: 1.5em;
 }
@@ -499,7 +499,7 @@ margin-bottom: 4vh;
   line-height: 1.15em;
 }
 
-/* ----------------Grid Area---------------- */
+/* -----------------------Grid Area------------------------ */
 .boxes {
   display: flex; 
   flex-flow: row wrap;
@@ -515,11 +515,10 @@ margin-bottom: 4vh;
   background: rgba(211, 211, 211, 0.295);
 }
 
-/* ----Grid Area Font Styles--- */
+/* ---------Grid Area Font Styles--------- */
 .services-grid h2 {
   text-align: center; 
   font-size: 1.25em;
-    
   margin-top: 2vh; 
 }
 .services-grid p {
@@ -527,7 +526,7 @@ margin-bottom: 4vh;
   line-height: 1.25em; 
 }
 
-/* ---Grid Area Button Styles--- */
+/* ---------Grid Area Button Styles------- */
 .service-button {
   width: 50%;
   height: 4vh;  
@@ -537,7 +536,7 @@ margin-bottom: 4vh;
   border-radius: 5px; 
 }
 
-/* -------------Service Footer------------- */
+/* ----------------------Service Footer--------------------- */
 .services-footer {
   display: flex; 
   flex-flow: row wrap;
@@ -554,7 +553,7 @@ margin-bottom: 4vh;
   width: 100%; 
 }
 
-/* ---Service Footer Font Styles--- */
+/* --------Service Footer Font Styles-------- */
 .services-info-box h2 {
   font-size: 1.25em;
 }
@@ -568,15 +567,84 @@ margin-bottom: 4vh;
   margin: 0 4%; 
 }
 
-/* ---Service Footer Image--- */
+/* -----------Service Footer Image---------- */
 .services-info-img {
   align-self: stretch;
   width: 100%; 
   height: 39vh; 
 }
 
-/* ---Service Copyright--- */
+/* -------Service Copyright-------- */
 .services-copyright {
   color: white; 
 }
+ /* ------------------------------Services Media Query 800min------------------------------- */
+
  
+ @media  (min-width: 800px) {
+
+   .services-container {
+     padding: 2vh 1.5%; 
+   }
+
+  /* ----------------Navigation---------------*/
+   .services-nav-wrapper {
+     flex-flow: row nowrap; 
+     height: 8vh; 
+     width: 100%; 
+   }
+   .services-nav-wrapper a {
+     width: 17%; 
+     border-bottom: none; 
+     height: 5vh; 
+     justify-content: space-between;
+   }
+   .logo-nav {
+     height: 5vh; 
+     border-bottom: none; 
+     margin-bottom: 0; 
+   }
+
+   /* ------------Services Header------------- */
+
+   .services-header-wrapper {
+     height: 47vh; 
+   }
+   .services-header-img {
+     margin-left: 2%; 
+     justify-self: center;
+   }
+   .service-box {
+     padding: 0 4%; 
+   }
+
+   /* ----Services Header Font Styles---- */
+   .service-box p {
+     line-height: 1.5em;
+   }
+
+   /* ---------------Grid Area---------------- */
+   .boxes {
+     height: 97vh; 
+     justify-content: space-between;
+
+   }
+   .services-grid {
+     width: 49%; 
+   }
+
+   /* ------Grid Area Font Styles------- */
+   .services-grid h2 {
+     text-align: left;
+     padding-left: 2%; 
+   }
+
+   /* -----Grid Area Button Styles------- */
+   .service-button {
+     width: 35%; 
+     margin-left: 2%; 
+     font-size: 0.85em;
+      
+   }
+
+ }
