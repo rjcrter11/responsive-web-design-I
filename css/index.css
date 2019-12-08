@@ -587,7 +587,7 @@ margin-bottom: 4vh;
      padding: 2vh 1.5%; 
    }
 
-  /* ----------------Navigation---------------*/
+  /* ---------------------Navigation--------------------*/
    .services-nav-wrapper {
      flex-flow: row nowrap; 
      height: 8vh; 
@@ -605,7 +605,7 @@ margin-bottom: 4vh;
      margin-bottom: 0; 
    }
 
-   /* ------------Services Header------------- */
+   /* ----------------Services Header----------------- */
 
    .services-header-wrapper {
      height: 47vh; 
@@ -623,7 +623,7 @@ margin-bottom: 4vh;
      line-height: 1.5em;
    }
 
-   /* ---------------Grid Area---------------- */
+   /* -------------------Grid Area-------------------- */
    .boxes {
      height: 97vh; 
      justify-content: space-between;
@@ -644,7 +644,29 @@ margin-bottom: 4vh;
      width: 35%; 
      margin-left: 2%; 
      font-size: 0.85em;
-      
    }
+
+   /* ------------------Services Footer----------------- */
+   .services-footer {
+     flex-flow: row nowrap; 
+     height: 40vh; 
+   }
+   .services-info-box {
+     width: 45%; 
+   }
+   .services-info-img {
+     width: 45%; 
+   }
+
+   /* -----Service Info Box Font Styles----- */
+  .services-info-box p {
+    margin-right: 5%; 
+  }
+
+  /* -----------Service Copyright----------- */
+  .services-copyright {
+    color: black; 
+    text-align: center;
+  }
 
  }
